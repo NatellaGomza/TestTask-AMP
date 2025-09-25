@@ -1,0 +1,50 @@
+@use '../variables' as *;
+
+.auth-form {
+  background-color: $colorBgContainer;
+  border-radius: 16px;
+  width: 440px;
+  //height: 372px;
+
+  &__header {
+    padding: 52px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__company-logo {
+    height: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    font-family: 'SFProText', sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  &__content {
+    padding: 0 32px 32px;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  &__timer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+
+  &__btn {
+    margin-top: 16px;
+  }
+
+  .ant-otp.ant-otp-lg .ant-otp-input {
+    height: 60px;
+    font-size: 24px;
+  }
+}
